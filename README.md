@@ -1,6 +1,5 @@
 # Portfolio of    Lokesh
-
-<img src ="https://github.com/Code /Code /blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.  Lokesh.in.png" />
+<h1>Please Click the link to Know about me</h1>
  
 This project was created with CRA (Create React App)
 
