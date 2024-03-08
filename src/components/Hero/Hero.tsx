@@ -16,7 +16,7 @@ export function Hero() {
           <p><b>Hello</b> <img src={Hello} alt="Hello" width="45px"/> <b>I'm</b></p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1 >Lokesh  Ravichandran</h1>
+          <h1 >Suman Mandava</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Full Stack Developer</h3>
@@ -40,7 +40,7 @@ export function Hero() {
         
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/lokesh-ravichandran/"
+        href="https://www.linkedin.com/in/suman-mandava-69b0801a8/"
         target="_blank"
         rel="noreferrer"
       >
@@ -48,21 +48,21 @@ export function Hero() {
       </a>
      
         <a
-          href=" https://github.com/lokirj7"
+          href=" https://github.com/lakki12233"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919025250419&text=Hello+Lokesh+Ravichandran!!"
+          href="https://api.whatsapp.com/send/?phone=%2B918610168021&text=Hello+Suman+Mandava!!"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://www.instagram.com/loki_b_boy/"
+          href="https://www.instagram.com/suman._.03/"
           target="_blank"
           rel="noreferrer"
         >

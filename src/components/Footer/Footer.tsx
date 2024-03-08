@@ -20,7 +20,7 @@ export function Footer() {
       <div className="social-media">
       For immediate attention --!
         <a
-        href="https://www.linkedin.com/in/lokesh-ravichandran/"
+        href="https://www.linkedin.com/in/suman-mandava-69b0801a8/"
         target="_blank"
         rel="noreferrer"
       >
@@ -28,27 +28,27 @@ export function Footer() {
       </a>
      
         <a
-          href=" https://github.com/lokirj7"
+          href=" https://github.com/lakki12233"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919025250419&text=Hello+Lokesh+Ravichandran!!"
+          href="https://api.whatsapp.com/send/?phone=%2B918610168021&text=Hello+Suman+Mandava!!"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://www.instagram.com/loki_b_boy/"
+          href="https://www.instagram.com/suman._.03/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={instagramIcon} alt="telegram" />
         </a></div>
-        © Copyright 2024, Lokesh Ravichandran
+        © Copyright 2024, Suman Mandava
     </Container>
   )
 }

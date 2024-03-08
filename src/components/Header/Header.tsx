@@ -4,7 +4,7 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import  download from '../../assets/download.png';
 
-import CV from '../../assets/Lokesh Ravichandran.pdf' 
+import CV from '../../assets/Resume_SumanMandava_.pdf' 
 export function Header() {
   const [isActive, setActive] = useState(false)
 
@@ -21,7 +21,7 @@ export function Header() {
     <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
-          <span>Loki</span>
+          <span>Suman</span>
           <span></span>
         </HashLink>
 

@@ -9,7 +9,7 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import mongodb from "../../assets/mongodb.png";
-import Lokesh from "../../assets/Lokesh.png"
+import suman from "../../assets/suman.png"
 import sql from "../../assets/sql.png"
 import java from "../../assets/java.png"
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
@@ -25,16 +25,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          Hi there! I'm Lokesh Ravichandran, a website developer with a passion for creating custom Web Application. With a skill set including HTML, CSS, JavaScript, and React. 
+          Hello! I'm Suman Mandava, a Full Stack Developer enthusiastic about crafting Web Applications. My expertise encompasses HTML, CSS, React.js, Node.js, MongoDB, and MySQL.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          Additionally i have worked on the Problem solving and Full stack web application.</p>
+          Furthermore, I have experience in Problem Solving, Machine Learning, and Blockchain applications.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-          So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          If you're seeking a fresh website or considering an overhaul of your existing online presence, I'd be delighted to discuss and explore how I can assist. Let's collaborate to turn your website aspirations into reality!</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
@@ -92,7 +92,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={Lokesh} alt="   Lokesh" />
+          <img src={suman} alt="   Suman" />
         </ScrollAnimation>
       </div>
     </Container>

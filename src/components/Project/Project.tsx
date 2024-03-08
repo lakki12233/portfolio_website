@@ -2,12 +2,13 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 import DownloadApp from '../../assets/download.png'
 import externalLink from "../../assets/external-link.svg"
-import java from "../../assets/javapro.png";
+import roadlanepro from "../../assets/roadlanepro.jpg";
 import ScrollAnimation from "react-animate-on-scroll";
-import sociopedia from "../../assets/sociopedia.png";
-import weatherphoto from "../../assets/weatherapi.png"
-import fiver from "../../assets/fiver.png";
-import fakeproduct from "../../assets/fakeproduct.png"
+import kyc from "../../assets/kycBC.jpg";
+import burger from "../../assets/onlineBurger.png"
+import ovp from "../../assets/ovp.png";
+import objectdetection from "../../assets/object_detection_pic.png"
+import resumefilter from "../../assets/resumefilter.png"
 export function Project() {
   return (
     <Container id="project">
@@ -23,25 +24,27 @@ export function Project() {
                 <svg width="20" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                 <div className="project-links">
 
-                  <a href="githublink" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/lakki12233/Road-lane-line-detection" target="_blank" rel="noreferrer">
                     <img src={externalLink} alt="Visit site" />
                   </a>
                 </div>
               </header>
-              <img src={java} alt="pro-img" className="pro-img" />
+              <img src={roadlanepro} alt="pro-img" className="pro-img" />
 
             </div>
             <hr></hr>
             <div className="body">
-              <h3>Billing Mangement Application</h3>
+              <h3>Road Lane Line Detecion</h3>
               <p>
-                The Java-based Billing Management System is designed to automate and organize financial transactions efficiently. Leveraging the robust features of Java, the system prioritizes scalability, reliability, and ease of maintenance. It streamlines billing processes, offering a comprehensive solution for managing financial transactions with the goal of enhancing efficiency and ensuring a robust and sustainable platform.</p>
+              Road lane line detection is a fundamental task in computer vision that involves identifying and tracking the lanes on a road using image processing techniques. It is a crucial aspect of autonomous driving systems, driver assistance technologies, and road safety. Road lane line detection algorithms typically rely on techniques such as edge detection, Hough transform, and image segmentation to identify and track the lanes. The goal of these algorithms is to detect the lane lines accurately and efficiently in real-time, even under challenging lighting and environmental conditions.</p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>JAVA</li>
-                <li>Mysql</li>
-                <li>AWT</li>
+                <li>Python 3.5</li>
+                <li>NumPy</li>
+                <li>OpenCV</li>
+                <li>Matplotlib</li>
+                <li>MoviePy</li>
               </ul>
             </footer>
           </div>
@@ -54,28 +57,28 @@ export function Project() {
                 <svg width="20" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                 <div className="project-links">
 
-                  <a href="https://github.com/lokirj7/sociopedia" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/lakki12233/KYC_BLOCKCHAIN" target="_blank" rel="noreferrer">
                     <img src={externalLink} alt="Visit site" />
                   </a>
                 </div>
               </header>
-              <img src={sociopedia} alt="pro-img" className="pro-img" />
+              <img src={kyc} alt="pro-img" className="pro-img" />
 
             </div>
             <hr></hr>
             <div className="body">
-              <h3>Socio Pedia Platform</h3>
+              <h3>KYC VERIFICATION USING BLOCKCHAIN</h3>
               <p>
-                The social media application is built using ReactJS, React Router, Formik+Yup, Redux Toolkit, and Redux Persist on the front-end. The back-end is powered by NodeJS, ExpressJS, and Mongoose with MongoDB as the database. Security features include hashing, salting, and JWT for user authentication. React Dropzone and Multer handle file uploads. Following the MVC architecture, the application offers functionalities like posting, liking, commenting, and adding friends through a RESTful API, providing users with a comprehensive and interactive social media experience.
+              The project aims to enhance e-KYC processes in the financial sector by introducing e-KYC TrustBlock, a blockchain-based system with CP-ABE encryption. It ensures security and privacy for cloud-stored KYC documents. By enabling institutions to access previous KYC data through the blockchain, it reduces verification time and redundancy for customers. The system emphasizes encryption and key management, requiring user approval for data sharing and implementing a 25-digit key mechanism for secure access. Overall, it creates a streamlined, secure, and user-controlled e-KYC platform for efficient data sharing among financial institutions.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Reactjs</li>
-                <li>NodeJS</li>
-                <li>ExpressJS</li>
-                <li>Mongoose</li>
-                <li>MongoDB</li>
+                <li>JavaScript (Node.js)</li>
+                <li>Express.js</li>
+                <li>Ganache</li>
+                <li>Remix IDE</li>
+                <li>MetaMask</li>
               </ul>
             </footer>
           </div>
@@ -88,55 +91,65 @@ export function Project() {
                 <svg width="20" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                 <div className="project-links">
 
-                  <a href="https://github.com/lokirj7/WeatherApp" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/lakki12233/OrderBurgerOnline_Reactjs" target="_blank" rel="noreferrer">
                     <img src={externalLink} alt="Visit site" />
                   </a>
                 </div>
               </header>
-              <img src={weatherphoto} alt="pro-img" className="pro-img" />
+              <img src={burger} alt="pro-img" className="pro-img" />
 
             </div>
             <hr></hr>
             <div className="body">
-              <h3>Weather Application</h3>
+              <h3> Burger Ordering website Frontend</h3>
               <p>
-                The Weather Map API application provides real-time weather information using various APIs and technologies.The application leverages weather APIs to fetch and present current weather conditions, forecasts, and other relevant information. Users can interact with the map to explore weather details for different locations, providing a visually intuitive and informative weather tracking experience.
+              This project is a frontend-focused online burger ordering platform created using React. It includes essential components like a navigation bar, home page, menu page, about page, and contact page. The application uses React Router for seamless client-side navigation, allowing users to explore different sections without full-page reloads..
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Html</li>
                 <li>Css</li>
-                <li>Javascript</li>
-                <li>Weatherapi</li>
+                <li>Reactjs</li>
+                <li>bootstrapping</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
-        {/* <ScrollAnimation animateIn="flipInX">
+         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://www.smartcornersproperties.com/" target="_blank" rel="noreferrer">
+                <a href="https://github.com/lakki12233/Resume-Filtering-Application" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
+            <img src={resumefilter} alt="pro-img" className="pro-img" />
             <div className="body">
-              <h3>SmartCorners - Real Estate Properties Site</h3>
+              <h3>Resume Filtering Application</h3>
               <p>
-              This real estate site displays land properties and helps buyers and sellers. Buyers can see lots of pictures, videos, and details about properties before visiting in person. It makes it easier for buyers to find what they want and helps sellers get more attention.
+              The Resume Shorter program efficiently filters resumes based on two key conditions: over 3 years of
+experience and proficiency in C++ and Java. It automates the initial screening process, saving time
+and resources. By analyzing the work experience, the program eliminates candidates with less than
+3 years of relevant experience. Recruiters benefit from a streamlined process, as the program identifies
+qualified candidates objectively and quickly. The Resume Shorter program optimizes the
+recruitment process, ensuring that only the most suitable applicants proceed to subsequent stages.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>               
+                <li>Reactjs</li>
+                <li>JSON</li>
+                <li>Docxtemplater</li>
+                <li>PizZip</li>     
+                <li>FileSaver</li>          
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation> 
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -145,34 +158,34 @@ export function Project() {
                 <svg width="20" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                 <div className="project-links">
 
-                  <a href="https://github.com/lokirj7/Freelance-Platform/" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/lakki12233/MERN_OVP" target="_blank" rel="noreferrer">
                     <img src={externalLink} alt="Visit site" />
                   </a>
                 </div>
               </header>
-              <img src={fiver} alt="pro-img" className="pro-img" />
+              <img src={ovp} alt="pro-img" className="pro-img" />
 
             </div>
             <hr></hr>
             <div className="body">
-              <h3>Freelance Platform</h3>
+              <h3>Online Video Platform [Full Stack]</h3>
               <p>
-                The Freelance Platform, powered by ReactJS and NodeJS technologies, seamlessly connects businesses with freelancers across digital service categories. With a dynamic front-end using Vite and Saas, it allows freelancers to showcase their skills, facilitates secure communication through chat facilities, and ensures smooth transactions via the integrated Stripe Gateway. Enhanced by Redux Toolkit and JWT Authentication, the platform provides a user-friendly and secure environment for efficient collaboration and payment processing between businesses and freelancers. </p>
+              Full Stack Online Video Platform, where users experience seamless registration and secure login through 'JWT' authentication. The interface, powered by 'React Hooks','RESTApi' and 'Context API', offers an interactive and responsive viewing environment. 'Firebase' seamlessly manages movie storage, while 'MongoDB' robustly handles user and content data. Admins navigate a dedicated dashboard for content management, facilitating movie additions, updates, and list creation. An analytical module provides admins with insights into monthly user registration trends, enhancing decision-making for platform improvement. Additionally, our platform incorporates 'Google Dialogflow chatbot' for an enriched user experience on the client page. </p>
             </div>
             <footer>
               <ul className="tech-list">
-              <li>Reactjs</li>
-                <li>NodeJS</li>
-                <li>ExpressJS</li>
-                <li>Mongoose</li>
-                <li>MongoDB</li>
+              <li>MERN</li>
+                <li>Context API</li>
+                <li>JSON Web Tokens</li>
+                <li>Firebase</li>
+                <li> Google Dialogflow</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
 
 
-        {/* <ScrollAnimation animateIn="flipInX">
+         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -183,18 +196,18 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Mitul Industries - Manufacturing Industries Site</h3>
+              <h3></h3>
               <p>
-              This manufacturing industry website shows off products and helps the business get more customers and information online. Making products is important but making money from them is the goal. This site can help the business make more profit.
+                 Null
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Wordpress</li>
+                <li>Blank</li>
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation> 
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -203,27 +216,27 @@ export function Project() {
                 <svg width="20" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                 <div className="project-links">
 
-                  <a href="https://github.com/lokirj7/Fake-Product-Detection" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/lakki12233/Object_Dectection" target="_blank" rel="noreferrer">
                     <img src={externalLink} alt="Visit site" />
                   </a>
                 </div>
               </header>
-              <img src={fakeproduct} alt="pro-img" className="pro-img" />
+              <img src={objectdetection} alt="pro-img" className="pro-img" />
 
             </div>
             <hr></hr>
             <div className="body">
-              <h3>Fake Product Identification</h3>
+              <h3>Object-Detection</h3>
               <p>
-                The project integrates React, Node.js, Ethereum, and Hyperledger Fabric to secure product identification and combat counterfeiting in the supply chain. Utilizing technologies like Ganache, Truffle, Bcrypt, and Metamask, it ensures authenticity by assigning unique identifiers to products on the blockchain. Enhanced security features, such as JWT, OAuth 2.0, and RBAC, contribute to a robust system for tamper-proof and transparent product tracking. The goal is to provide a reliable solution for verifying product authenticity throughout the supply chain.
+              Object detection is a significant aspect of computer vision that enables machines to perceive and understand their visual environment as the field keeps on changing. The present undertaking concentrates on developing Object Detection system utilizing OpenCV Library in combination with MobileNetV3 structure. It helps in knowing where these objects are placed on images or video stream, highlighting the importance of computer vision to real life situations.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Solidity</li>
-                <li> Ethereum</li>
-                <li> ganache</li>
-                <li> Metamask.</li>
+                <li>Python</li>
+                <li> OpenCV</li>
+                <li> NumPy</li>
+                <li> Deep Learning</li>
               </ul>
             </footer>
           </div>
