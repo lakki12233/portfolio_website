@@ -1,4 +1,4 @@
-# Portfolio of    Lokesh
+# Portfolio of Suman
 <h1>Please Click the link to Know about me</h1>
  
 This project was created with CRA (Create React App)
