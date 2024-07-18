@@ -4,7 +4,7 @@ import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import  download from '../../assets/download.png';
 
-import CV from '../../assets/Resume_SumanMandava_nj.pdf';
+import CV from '../../assets/Resume_SumanMandava.pdf';
 export function Header() {
   const [isActive, setActive] = useState(false)
 
