@@ -31,7 +31,7 @@ export function Hero() {
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
           <BrowserRouter>
-          <a href="https://drive.google.com/file/d/1Ymfe-K828U8IjJAxdgHPkAvLylVTE8Vr/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1eCWaarLiJ8WoE3BXriY4V3AIsbTvAE41/view?usp=sharing">
             <button className="button" id="sec-btn">My Resume</button>
             </a>
           </BrowserRouter>
